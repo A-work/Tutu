@@ -18,4 +18,3 @@ class Train < ApplicationRecord
     self.carriages.where(c_type: c_type).sum('bottom_seats')
   end
 end
-
